@@ -134,7 +134,7 @@ A nice feature of slots is that they can have fallback content. If nothing gets 
 
 <code-listing heading="The Composed Visual Tree">
   <source-code lang="HTML">
-    <named-slot>
+    <fallback-content>
       <div>
         The first slot:
         <div>
@@ -147,7 +147,7 @@ A nice feature of slots is that they can have fallback content. If nothing gets 
           This is some fallback content for slot 2...
         </div>
       </div>
-    </named-slot>
+    </fallback-content>
   </source-code>
 </code-listing>
 
