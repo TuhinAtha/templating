@@ -71,7 +71,7 @@ Overriding the default naming convention is possible by utilizing the `@customAt
 
     @customAttribute('red-square')
     export class MyClass {
-      // implement custom element here
+      // implement custom attribute here
     }
   </source-code>
 </code-listing>
